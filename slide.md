@@ -57,7 +57,7 @@ import user_pb2
 user = user_pb2.User()
 user.id = 12
 print(" ".join([f'{x:08b}' for x in user.SerializeToString()]))
-# 00001000 00000001
+# 00001000 00001100
 ```
 
 ---
